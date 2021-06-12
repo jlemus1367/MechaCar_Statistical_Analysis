@@ -18,14 +18,18 @@
 - The R-squared(0.71) value for our model indicates that roughly 71 percent of the variability of our dependent variable can be explained with our multiple linear regression model. Therefore, our linear model can effectively predict mpg to a certain extent.
 
 ## Summary Statistics on Suspension Coils
-
+<h3 align="center"> Total Summary </h3>
 <p align="center">
   <img src = "Images/total_summary.png"  width=350>
 </p>
 
+<h3 align="center"> Summary for Each Lot </h3>
 <p align="center">
   <img src = "Images/lot_summary.png"  width=500>
 </p>
+
+### Results
+- According to the design specifications for the MechaCar suspension coils, the variance of the coils must not exceed 100 PSI. If we look at the table that aggregates and summarizes the data from all manufacturing lots, the variance(62.29 PSI) meets the specification requirements. However, when we calculate the summary statistics by manufacturing lot, we can see that manufacturing lot 3 has a variance(170.29 PSI) exceeding the required specification. The variation in lot 3 indicates abnormal observations that deviate from the quality standards set forth. Further investigation is required. 
 
 ## T-Tests on Suspension Coils
 
