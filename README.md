@@ -8,7 +8,19 @@
 
 ## Linear Regression to Predict MPG
 
+<p align="center">
+  <img src = "Images/deliv1.png"  width=500>
+</p>
+
 ## Summary Statistics on Suspension Coils
+
+<p align="center">
+  <img src = "Images/total_summary.png"  width=500>
+</p>
+
+<p align="center">
+  <img src = "Images/lot_summary.png"  width=500>
+</p>
 
 ## T-Tests on Suspension Coils
 
