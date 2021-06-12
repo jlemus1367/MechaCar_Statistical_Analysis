@@ -3,7 +3,7 @@
 library(dplyr)
 
 # Import and view CSV file
-MechaCar_mpg <- read_csv("MechaCar_mpg.csv")
+MechaCar_mpg <- read.csv("MechaCar_mpg.csv")
 View(MechaCar_mpg)
 
 # Preform multiple linear regression
@@ -15,7 +15,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 #----------Deliverable 2----------#
 #Import and view CSV file
-Suspension_Coil <- read_csv("Suspension_Coil.csv")
+Suspension_Coil <- read.csv("Suspension_Coil.csv")
 View(Suspension_Coil)
 
 #Summarize data
@@ -39,3 +39,4 @@ t.test(subset(Suspension_Coil, Manufacturing_Lot == 'Lot2')$PSI, mu=1500)
 
 #T-Test comparing Lot 3 to population mean
 t.test(subset(Suspension_Coil, Manufacturing_Lot == 'Lot3')$PSI, mu=1500)
+
