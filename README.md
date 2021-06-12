@@ -59,3 +59,17 @@ Considering the p-value we obtained from all manufacturing lots is on the cusp o
 
 However, the results obtained from lot 3 suggest that there is a statistical difference between their mean and the population mean. With a p-value of 0.042, we would reject the null hypothesis. Additionally, the confidence interval for lot 3 is between 1492.43 PSI and 1499.85 PSI. We can 95 percent confident that the sample mean for lot 3 is between those values, and since the population mean is not contained within that interval, we could state that the two means are statistically different. The results from lot 3 are consistent with the summary statistics table we calculated earlier.
 ## Study Design: MechaCar vs Competition 
+Further statistical analysis would be beneficial to ensure the performance of MechaCar against the competition. By making MechaCar stand out in the consumer's minds, we can facilitate more sales and brand awareness. Consumers are presumably concerned with the total cost of ownership and reliability when purchasing vehicles. Considering the substantial financial commitment, consumers are interested in metrics such as maintenance costs, upfront costs, and performance. To ensure that MechaCar stands out, we could test those metrics and compare them against the population mean of vehicles of the same class (e.g., sedan, sports, etc.). For example, we would like MechaCar to have lower upfront and maintenance costs but better performance measures such as horsepower, torque, and braking distance. We could implement a one-sided t-test for factors related to costs to see if there is a statistical difference between the mean upfront and maintenance cost between MechaCar and the population of cars in the same class. We want to prove that MechaCar has a lower cost of ownership than the competition, so our hypotheses could be the following for our one-sided t-test:
+
+- H0: The mean cost of ownership for MechaCar is greater than or equal to the mean cost of ownership of the population of cars in the same class.
+- HA: The mean cost of ownership for MechaCar is less than the mean cost of ownership of the population of cars in the same class. 
+
+Regarding performance, we want to prove that MechaCar performs better than the competition. Higher hp, higher torque, and lower breaking distance are generally considered better performance measures. Our Hypotheses would be the following for the one-sided t-tests:
+
+- H0: The mean hp/torque of MechaCar is less than or equal to the mean hp/torque of the population
+- HA: The mean hp/torque of MechaCar is greater than the mean hp/torque of the population
+
+- H0: The mean braking distance of MechaCar is greater than or equal to the mean braking distance of the population
+- HA: The mean braking distance of MechaCar is less than the mean braking distance of the population.
+
+Using the mean of the metrics mentioned above, we can relay that information to consumers in our marketing efforts to emphasize the exceptional features of MechaCar. 
